@@ -1,0 +1,49 @@
+Arguments: 
+  /home/rano/.nvm/versions/node/v18.14.2/bin/node /home/rano/.yarn/bin/yarn.js install
+
+PATH: 
+  /home/rano/.yarn/bin:/home/rano/.config/yarn/global/node_modules/.bin:/home/rano/.local/bin:/home/rano/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/home/rano/.yarn/bin:/home/rano/.config/yarn/global/node_modules/.bin:/home/rano/.local/bin:/home/rano/.nvm/versions/node/v18.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Users/RHINO/AppData/Local/Microsoft/WindowsApps:/mnt/c/APPS/VSCode/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: self-signed certificate in certificate chain
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1540:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:959:8)
+      at ssl.onhandshakedone (node:_tls_wrap:743:12)
+
+npm manifest: 
+  {
+    "name": "vite-template-solid",
+    "version": "0.0.0",
+    "description": "",
+    "scripts": {
+      "start": "vite",
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "typescript": "^4.9.5",
+      "vite": "^4.1.1",
+      "vite-plugin-solid": "^2.5.0"
+    },
+    "dependencies": {
+      "solid-js": "^1.6.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
